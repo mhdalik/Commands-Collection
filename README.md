@@ -13,7 +13,7 @@ Move
     mv dist/* .
 
 
-Git: Unlink remote repository from local project
+Git: Unlink remote repository from local project, also can use this command as undo of `git init` command
 
     rm -rf .git
 
