@@ -1,6 +1,6 @@
 # Commands-Collection
 
-Remove all directories and files excluding hidden
+Remove all directories and files excluding hidden items
 
     rm -rf *
 
@@ -11,4 +11,10 @@ Unzip
 Move
 
     mv dist/* .
+
+
+Git: Unlink remote repository from local project
+
+    rm -rf .git
+
 
