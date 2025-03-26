@@ -3,6 +3,9 @@
 Remove all directories and files excluding hidden items
 
     rm -rf *
+Remove all directories and files including hidden items
+
+    rm -rf ./* .[^.] .??*
 
 Unzip
 
