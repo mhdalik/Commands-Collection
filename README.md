@@ -33,7 +33,7 @@ Git: Unlink remote repository from local project, also can use this command as u
 
 1. SSH into your Hostinger server:
 
-    ```ssh u309054269@your-hostinger-domain```
+    ```ssh username@your-hostinger-domain```
    
    Replace u309054269 and your-hostinger-domain with your actual SSH username and server address.
 3. Navigate to the specific project folder:
@@ -47,7 +47,7 @@ Git: Unlink remote repository from local project, also can use this command as u
 
    When prompted for a location, save the key inside your project folder:
 
-   ```Enter file in which to save the key (/home/u309054269/.ssh/id_rsa): /home/u309054269/domains/abc.com/deploy_key```
+   ```Enter file in which to save the key (/home/username/.ssh/id_rsa): /home/username/domains/abc.com/deploy_key```
    When asked for a passphrase, leave it empty (so automated deploys won’t need manual password input).
 7. This generates two files:
    - deploy_key: The private key.
