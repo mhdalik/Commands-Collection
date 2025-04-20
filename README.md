@@ -21,6 +21,11 @@ Git: Unlink remote repository from local project, also can use this command as u
     rm -rf .git
 
 
+Git: reset all changes in local
+
+    git reset --hard 
+
+
 
 
 
