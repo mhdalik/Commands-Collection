@@ -26,6 +26,14 @@ Git: reset all changes in local
     git reset --hard 
 
 
+Open current directory in VSCode when click on .bat fil in windows
+
+save the below code ad .bat file extension in directory that need to open
+
+    @echo off
+    code . 
+
+
 
 
 
