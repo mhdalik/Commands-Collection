@@ -61,6 +61,7 @@ save the below code ad .bat file extension in directory that need to open
    When prompted for a location, save the key inside your project folder:
 
    ```Enter file in which to save the key (/home/username/.ssh/id_rsa): /home/username/domains/abc.com/deploy_key```
+
    When asked for a passphrase, leave it empty (so automated deploys won’t need manual password input).
 7. This generates two files:
    - deploy_key: The private key.
