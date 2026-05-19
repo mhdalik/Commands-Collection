@@ -48,7 +48,7 @@ save the below code ad .bat file extension in directory that need to open
 
     ```ssh username@your-hostinger-domain```
    
-   Replace u309054269 and your-hostinger-domain with your actual SSH username and server address.
+   Replace username and your-hostinger-domain with your actual SSH username and server address.
 3. Navigate to the specific project folder:
 
     ```cd ~/domains/abc.com```
