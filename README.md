@@ -1,5 +1,29 @@
 # Commands-Collection
 
+
+## Python
+
+Create virtual environment (run inside project root directory)(in windows git bash)
+
+    python -m venv venv
+
+Activate venv (in windows git bash)
+
+    source venv/Scripts/activate
+
+Generate requirements.tx
+
+    pip freeze > requirements.txt
+
+Install requirements.tx
+
+    pip install -r requirements.txt
+
+
+
+
+## Linux    
+
 Remove all directories and files excluding hidden items
 
     rm -rf *
